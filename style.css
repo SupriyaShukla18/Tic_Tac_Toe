@@ -1,0 +1,80 @@
+@import url('https://fonts.google.com/share?selection.family=Gupter:wght@400;500;700|Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Sevillana')
+
+
+*{
+    margin:0;
+    padding:0;
+
+
+}
+
+nav{
+    background-color:plum;
+    color:white;
+    height:62px;
+    font-size:27px;
+    display:flex;
+    align-items:center;
+    padding:0 12px;
+    font-family: Gupter;
+}
+nav ul{
+    list-style-type:none;
+
+}
+.gameContainer{
+  background-color:royalblue;
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+
+}
+.container{
+    display:grid;
+    grid-template-rows:repeat(3,10vw);
+    grid-template-columns:repeat(3,10vw);
+    font-family:Gupter;
+
+}
+.box{
+    border:2px solid black;
+    font-size:8vw;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box:hover{
+    background-color:blueviolet
+   
+}
+.info{
+    font-size:25px;
+}
+.gameInfo{
+    padding:0 34px;
+    font-family: https://fonts.google.com/specimen/Baloo+Bhaina+2?preview.layout=grid;
+}
+.br-0{
+    border-right:0;
+    
+}
+.bl-0{
+    border-left:0;
+}
+.bt-0{
+    border-top:0;
+}
+.bb-0{
+    border-bottom:0;
+}
+#reset{
+    margin:0 23px;
+    padding :1px 18px;
+    background:#f3e7f9;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bolder;
+}
